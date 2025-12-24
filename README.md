@@ -1,5 +1,8 @@
 # 🚀 Módulo 2: Generación Multicanal de Anuncios
 
+![Skill](https://img.shields.io/badge/Skill-Prompt%20Engineering-blue.svg)
+![Validation](https://img.shields.io/badge/Validation-Promptfoo-green.svg)
+
 Sistema de generación automatizada de copy publicitario diseñado para escalar la visibilidad de un stock de **+600 vehículos**. Este motor transforma datos técnicos en anuncios persuasivos optimizados para diferentes canales.
 
 ## 🛠️ Stack Tecnológico
