@@ -12,6 +12,9 @@ El prompt maestro incluido en este repositorio genera automáticamente 3 variant
 ## 📊 Evidencia de Generación
 El sistema ha sido testeado con éxito procesando modelos de alta gama (Audi, Porsche), garantizando coherencia de marca y precisión técnica en cada canal.
 
+## Evidencia de éxito
+![Test Pass Porsche](./test_anuncios_porsche.png)
+
 ---
 💡 **Nota de Arquitectura:** Este módulo forma parte del **Ecosistema de Gestión de Stock (600 vehículos)**. 
 Puedes ver el caso de uso completo y la integración de todos los módulos en mi [Dashboard de Notion](TU_ENLACE_DE_NOTION_AQUI).
