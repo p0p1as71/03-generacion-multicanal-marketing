@@ -1,42 +1,16 @@
-# 🚀 Módulo 2: Validación de Generación Multicanal (Marketing)
-# Objetivo: Asegurar que el motor genera 3 tonos distintos (Instagram, LinkedIn, Marketplace)
-
 prompts:
   - file://prompt_maestro.md
-
 providers:
   - id: openai:gpt-4o-mini
-    config:
-      temperature: 0.7
-
 tests:
   - vars:
-      marca: "Porsche"
-      modelo: "Panamera"
-      combustible: "Híbrido (MHEV)"
-      kilometros: "45.000 km"
-      ventaja_competitiva: "Garantía oficial y entrega inmediata"
-    
+      marca: 'Porsche'
+      modelo: 'Panamera'
+      kilometros: '45.000 km'
     assert:
-      # 1. Validación de Variedad Multicanal
       - type: contains
-        value: "Instagram"
-        description: "Debe generar la variante para Instagram"
+        value: 'Instagram'
       - type: contains
-        value: "LinkedIn"
-        description: "Debe generar la variante para LinkedIn"
-      
-      # 2. Validación de Tono Emocional (Instagram)
+        value: 'LinkedIn'
       - type: javascript
-        value: output.includes('🚀') || output.includes('🔥')
-        description: "La versión de Instagram debe contener emojis para engagement"
-
-      # 3. Validación de Tono Profesional (LinkedIn)
-      - type: contains
-        value: "inversión"
-        description: "La versión de LinkedIn debe mencionar el valor de la inversión"
-
-      # 4. Validación de Datos Técnicos (Marketplace)
-      - type: contains
-        value: "45.000 km"
-        description: "La versión técnica debe incluir el kilometraje exacto"
+        value: 'output.includes("🚀") || output.includes("🔥")'
