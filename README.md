@@ -25,7 +25,7 @@ El prompt maestro genera automáticamente 3 variantes:
 ## 📩 Contacto e Integración
 Este módulo es una pieza fundamental del **Ecosistema de Gestión de Stock (+600 vehículos)**. Puedes ver la implementación completa y el dashboard de control en mi espacio de trabajo:
 
-🔗 **[Ver Dashboard en Notion]https://heavenly-brownie-8e2.notion.site/Proyecto-2-Generaci-n-Multicanal-de-Anuncios-Porsche-Panamera-2d3c6facf09080cc8ef2ee5f548f7d6f**
+🔗 **[Ver Dashboard en Notion] (https://heavenly-brownie-8e2.notion.site/Proyecto-2-Generaci-n-Multicanal-de-Anuncios-Porsche-Panamera-2d3c6facf09080cc8ef2ee5f548f7d6f**)
 
 ---
 *Proyecto desarrollado por Ricardo Rubio Albacete*
