@@ -1,20 +1,28 @@
 # 🚀 Módulo 2: Generación Multicanal de Anuncios
-[![Marketing IA](https://img.shields.io/badge/Focus-Marketing%20Automation-orange.svg)](#)
 
-Sistema de generación automatizada de copy publicitario diseñado para escalar la visibilidad de un stock de **600 vehículos**. Este motor transforma datos técnicos en anuncios persuasivos optimizados para diferentes redes sociales.
+Sistema de generación automatizada de copy publicitario diseñado para escalar la visibilidad de un stock de **+600 vehículos**. Este motor transforma datos técnicos en anuncios persuasivos optimizados para diferentes canales.
 
-## 🎯 Capacidades del Motor
-El prompt maestro incluido en este repositorio genera automáticamente 3 variantes de anuncios:
-1. **Instagram:** Enfoque aspiracional y visual.
-2. **Facebook Marketplace:** Enfoque funcional y detallado.
-3. **LinkedIn:** Enfoque B2B y de eficiencia empresarial.
+## 🛠️ Stack Tecnológico
+* **Motor:** OpenAI GPT-4o-mini.
+* **Validación:** Promptfoo (Testing automatizado de tono y coherencia).
+* **Control de versiones:** Git & GitHub.
 
-## 📊 Evidencia de Generación
-El sistema ha sido testeado con éxito procesando modelos de alta gama (Audi, Porsche), garantizando coherencia de marca y precisión técnica en cada canal.
+## ✅ Evidencia de Éxito
+El sistema ha sido testeado con éxito procesando modelos de alta gama (Porsche Panamera), garantizando que el output cumpla con las reglas de negocio para cada red social:
 
-## Evidencia de éxito
 ![Test Pass Porsche](./test_anuncios_porsche.png)
 
+## 🧠 Capacidades del Motor
+El prompt maestro genera automáticamente 3 variantes:
+1. **Instagram:** Enfoque emocional y estilo de vida con emojis.
+2. **Facebook Marketplace:** Enfoque funcional y técnico.
+3. **LinkedIn:** Tono profesional enfocado a eficiencia empresarial.
 ---
-💡 **Nota de Arquitectura:** Este módulo forma parte del **Ecosistema de Gestión de Stock (600 vehículos)**. 
-Puedes ver el caso de uso completo y la integración de todos los módulos en mi [Dashboard de Notion](TU_ENLACE_DE_NOTION_AQUI).
+
+## 📩 Contacto e Integración
+Este módulo es una pieza fundamental del **Ecosistema de Gestión de Stock (+600 vehículos)**. Puedes ver la implementación completa y el dashboard de control en mi espacio de trabajo:
+
+🔗 **[Ver Dashboard en Notion](TU_ENLACE_DE_NOTION_AQUI)**
+
+---
+*Proyecto desarrollado por Ricardo Rubio Albacete*
