@@ -10,10 +10,19 @@ Sistema de generación automatizada de copy publicitario diseñado para escalar 
 * **Validación:** Promptfoo (Testing automatizado de tono y coherencia).
 * **Control de versiones:** Git & GitHub.
 
-## ✅ Evidencia de Éxito
-El sistema ha sido testeado con éxito procesando modelos de alta gama (Porsche Panamera), garantizando que el output cumpla con las reglas de negocio para cada red social:
+## ✅ Evidencias de Éxito y Validación
 
-![Test Pass Porsche](./test_anuncios_porsche.png)
+El sistema ha sido testeado exhaustivamente para garantizar que la generación multicanal cumple con los requisitos de marca y formato.
+
+### 1. Validación Técnica (Terminal)
+Se han ejecutado tests automatizados con **Promptfoo** asegurando que el modelo GPT-4o-mini responde correctamente a las variables de stock (Porsche Panamera).
+![Validación Terminal](./test_anuncio_multi.png)
+
+### 2. Resultado Multicanal (Vista de Usuario)
+Interfaz de resultados donde se observa el cumplimiento de las 3 variantes solicitadas y las aserciones de tono (emojis para Instagram y enfoque profesional).
+![Dashboard de Resultados](./resultado_test_marketing.png)
+
+> **Nota:** El sistema valida automáticamente la presencia de elementos de engagement (🚀🔥) y la coherencia de los datos técnicos (45.000 km).
 
 ## 🧠 Capacidades del Motor
 El prompt maestro genera automáticamente 3 variantes:
